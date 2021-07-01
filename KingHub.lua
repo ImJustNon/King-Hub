@@ -24,7 +24,7 @@ elseif game.placeId == 2753915549 then                                          
     local Tab = Window:NewTab("BloxFruit(OldWorld)")
     BloxFruitold = Tab:NewSection("Menu")
 
-    BloxFruit:NewButton("ZenonHub", "ZenonHub Is Not XenonHub", function()
+    BloxFruitold:NewButton("ZenonHub", "ZenonHub Is Not XenonHub", function()
         _G.Keys = "E9F22-994C7-7D7D5-ABD57" 
         _G.Color = Color3.fromRGB(222, 37, 0) 
         loadstring(game:HttpGet("https://pastebin.com/raw/Y0sAs42t"))()
