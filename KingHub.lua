@@ -86,7 +86,7 @@ elseif game.placeId == 2753915549 then                                          
 elseif game.placeId == 4442272183 then                                                                                  --Blox Fruit(New World)
 
     local Tab = Window:NewTab("BloxFruit(NewWorld)")
-    BloxFruit = Tab:NewSection("Menu")
+    BloxFruitnew = Tab:NewSection("Menu")
 
     BloxFruitnew:NewButton("EvilHub", "Goodluck", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
