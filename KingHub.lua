@@ -87,6 +87,12 @@ elseif game.placeId == 4442272183 then                                          
 
     local Tab = Window:NewTab("BloxFruit(NewWorld)")
     BloxFruitnew = Tab:NewSection("Menu")
+    
+    BloxFruitnew:NewButton("ZenonHub", "ZenonHub Is Not XenonHub", function()
+        _G.Keys = "E9F22-994C7-7D7D5-ABD57" 
+        _G.Color = Color3.fromRGB(222, 37, 0) 
+        loadstring(game:HttpGet("https://pastebin.com/raw/Y0sAs42t"))()
+    end)
 
     BloxFruitnew:NewButton("EvilHub", "Goodluck", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
